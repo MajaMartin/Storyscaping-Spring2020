@@ -8,7 +8,7 @@ img {
 }
 
 #popup {
-    border: 7px solid grey;
+    border: 6px solid #b18e42;
     width: 424px;
     height: 510px;  
     background-color: white;
@@ -74,3 +74,19 @@ img {
     transform: scale(1)
   }
 }
+
+
+
+@media screen and (max-width: 768px) and (orientation : portrait){ 
+    
+    #popup {
+        transform: scale(0.8);
+        z-index: 1000 !important;
+    }
+    
+    
+    
+    
+    
+}
+
