@@ -5,9 +5,25 @@
  Author:       Maja Martin, Kristoffer Mortensen og Sarah Vedersøe  
  Author URI:   http://sarahvedersoe.com/storyscape
  Template:     astra    
- Version:      2.0.0
+ Version:      1.0.1
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  astrachildtheme
 */
+
+div.wpforms-container-full .wpforms-form input[type=submit], div.wpforms-container-full .wpforms-form button[type=submit], div.wpforms-container-full .wpforms-form .wpforms-page-button 
+{
+    background-color: #000000; /* sort background-farve */
+    border: 2px solid #C37929; /* orange border */
+    color: #ffffff; /* hvid tekstfarve */
+    border-radius: 5px; /* runde hjørner på rammen */
+    font-size: 1em; /* tekststørrelse */
+    padding: 8px 15px; /* Mellemrum mellem tekst og border */
+
+}
+div.wpforms-container-full .wpforms-form input[type=submit]:hover, div.wpforms-container-full .wpforms-form input[type=submit]:focus, div.wpforms-container-full .wpforms-form input[type=submit]:active, div.wpforms-container-full .wpforms-form button[type=submit]:hover, div.wpforms-container-full .wpforms-form button[type=submit]:focus, div.wpforms-container-full .wpforms-form button[type=submit]:active, div.wpforms-container-full .wpforms-form .wpforms-page-button:hover, div.wpforms-container-full .wpforms-form .wpforms-page-button:active, div.wpforms-container-full .wpforms-form .wpforms-page-button:focus {
+    background-color: #C37929;
+    border: 1px solid #000000;
+    cursor: pointer;
+}
